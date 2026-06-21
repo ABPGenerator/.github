@@ -1,0 +1,78 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AbpGenerator banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="0.55" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#4338CA"/>
+    </linearGradient>
+    <linearGradient id="cell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <clipPath id="card2">
+      <rect x="1024" y="78" width="172" height="164" rx="20"/>
+    </clipPath>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1E1B4B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+
+  <!-- faint background grid texture -->
+  <g fill="#FFFFFF" opacity="0.05">
+    <circle cx="940" cy="60" r="4"/><circle cx="990" cy="60" r="4"/><circle cx="1040" cy="60" r="4"/>
+    <circle cx="940" cy="260" r="4"/><circle cx="990" cy="260" r="4"/><circle cx="1040" cy="260" r="4"/>
+    <circle cx="1240" cy="120" r="4"/><circle cx="1240" cy="170" r="4"/><circle cx="1240" cy="220" r="4"/>
+  </g>
+
+  <!-- left text block -->
+  <text x="80" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#FFFFFF">AbpGenerator</text>
+  <text x="82" y="180" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" fill="#FFFFFF" opacity="0.88">From a CSV to a complete app — in minutes.</text>
+
+  <!-- platform pills -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+    <rect x="82"  y="214" width="104" height="42" rx="21" fill="#FFFFFF" opacity="0.16"/>
+    <text x="134" y="242" text-anchor="middle" fill="#FFFFFF">Web</text>
+    <rect x="198" y="214" width="142" height="42" rx="21" fill="#FFFFFF" opacity="0.16"/>
+    <text x="269" y="242" text-anchor="middle" fill="#FFFFFF">Desktop</text>
+    <rect x="352" y="214" width="124" height="42" rx="21" fill="#FFFFFF" opacity="0.16"/>
+    <text x="414" y="242" text-anchor="middle" fill="#FFFFFF">Mobile</text>
+  </g>
+
+  <!-- right: CSV grid  ->  app card  + sparkle -->
+  <!-- CSV source grid -->
+  <g>
+    <rect x="828"  y="118" width="42" height="26" rx="6" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="878"  y="118" width="42" height="26" rx="6" fill="#FFFFFF" opacity="0.45"/>
+    <rect x="828"  y="150" width="42" height="26" rx="6" fill="#FFFFFF" opacity="0.45"/>
+    <rect x="878"  y="150" width="42" height="26" rx="6" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="828"  y="182" width="42" height="26" rx="6" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="878"  y="182" width="42" height="26" rx="6" fill="#FFFFFF" opacity="0.45"/>
+  </g>
+
+  <!-- arrow -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <rect x="946" y="156" width="46" height="12" rx="6"/>
+    <path d="M988 138 L1016 162 L988 186 Z"/>
+  </g>
+
+  <!-- generated app card -->
+  <rect x="1024" y="78" width="172" height="164" rx="20" fill="#FFFFFF" filter="url(#sh)"/>
+  <g clip-path="url(#card2)">
+    <rect x="1024" y="78" width="172" height="40" fill="#EEF0FE"/>
+    <circle cx="1046" cy="98" r="5" fill="#C4B5FD"/>
+    <circle cx="1062" cy="98" r="5" fill="#C4B5FD"/>
+    <circle cx="1078" cy="98" r="5" fill="#C4B5FD"/>
+    <rect x="1044" y="134" width="58" height="28" rx="8" fill="url(#cell)"/>
+    <rect x="1116" y="134" width="58" height="28" rx="8" fill="#E0E3FB"/>
+    <rect x="1044" y="172" width="58" height="28" rx="8" fill="#E0E3FB"/>
+    <rect x="1116" y="172" width="58" height="28" rx="8" fill="url(#cell)"/>
+  </g>
+
+  <!-- sparkle -->
+  <g transform="translate(1196,80)">
+    <circle r="30" fill="#FBBF24" opacity="0.18"/>
+    <path d="M0 -22 C3 -7 7 -3 22 0 C7 3 3 7 0 22 C-3 7 -7 3 -22 0 C-7 -3 -3 -7 0 -22 Z" fill="#FBBF24"/>
+  </g>
+</svg>
