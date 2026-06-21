@@ -1,82 +1,76 @@
-# Abp Generator — Ship a complete ABP + MudBlazor app from a CSV in minutes
+<p align="center">
+  <img src="banner.png" alt="AbpGenerator — from a CSV to a complete app in minutes" width="100%">
+</p>
 
-**Point it at your data. Get a real, full-stack, multi-platform business app — ready to run, ready to ship.**
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white" alt=".NET 10">
+  <img src="https://img.shields.io/badge/Built%20on-ABP%20Framework-4F46E5" alt="Built on ABP Framework">
+  <img src="https://img.shields.io/badge/UI-MudBlazor-7C3AED" alt="MudBlazor">
+  <img src="https://img.shields.io/badge/Platforms-Web%20%C2%B7%20Desktop%20%C2%B7%20Mobile-6366F1" alt="Web · Desktop · Mobile">
+  <img src="https://img.shields.io/badge/License-LGPL%20%2F%20MIT-16A34A" alt="License LGPL/MIT">
+  <img src="https://img.shields.io/badge/Free%20to%20distribute-100%25-FBBF24" alt="Free to distribute">
+</p>
 
-AbpGenerator turns plain CSV files into a polished, production-shaped application built on the
-[ABP Framework](https://abp.io) and [MudBlazor](https://mudblazor.com). No boilerplate, no weeks of
-plumbing — describe your entities and relationships, and out comes a beautiful app with authentication,
-admin, a modern UI, and the full back end already wired together.
+<h1 align="center">From a CSV to a complete app — in minutes.</h1>
 
-> ⭐ **See it in action and grab the latest samples: [ask2app.com/abpGenerator](https://ask2app.com/abpGenerator)**
+<p align="center">
+  <b>AbpGenerator</b> turns plain CSV files into a polished, full-stack, multi-platform business app on
+  <a href="https://abp.io">ABP Framework</a> + <a href="https://mudblazor.com">MudBlazor</a> —
+  with authentication, admin, a modern UI, and every common module already wired together.
+  <br>You own the full source. 100% free to ship.
+</p>
+
+<p align="center">
+  <a href="https://ask2app.com/abpGenerator"><b>▶ See it in action & grab the latest samples →</b></a>
+</p>
 
 ---
 
-## What you get out of the box
+## ✨ What you get out of the box
 
 Every generated app is a complete, coherent product — not a scaffold you have to finish.
 
-### 🎨 A gorgeous, modern UI
-- Clean **MudBlazor** design with a colored top app bar, light/dark mode, and a live theme-color picker.
-- A welcoming, **auto-generated home page** that showcases your app's modules.
-- Polished list screens with sorting, filtering, paging, and a one-click **Grid ⇄ Cards** view toggle
-  that **remembers your choice per screen**.
-- Friendly add/edit dialogs and a tidy 3-dot action menu on every row and card.
-
-### 🔗 Relationships that just work
-- **One-to-one**, **one-to-many**, and **many-to-many** — all detected from your data and rendered
-  automatically in the grids, cards, and edit forms (multi-select for many-to-many, with the related
-  values shown right in the list).
-
-### 🧩 Batteries included — every common module, by default
-- **Identity & roles**, secure **OpenIddict** login, and fine-grained **permissions**.
-- **Settings**, **Feature flags**, **Multi-tenancy / SaaS**, and **Audit logging**.
-- **Background jobs**, **file/blob storage**, and **CMS Kit** (tags, comments, ratings, reactions,
-  blogs, pages, and menus).
-
-### 📱 One app, every screen
-- A fast **Blazor WebAssembly** client.
-- A native **.NET MAUI** desktop & mobile app (Windows, Android, iOS, macOS) that shares the exact
-  same UI.
-- A full **web/admin host** with the complete management experience.
-
-### 🚀 Run it instantly
-- Sensible demo data is seeded for you, so the app is alive on first launch.
-- Simple, repeatable run scripts bring the whole thing up with one command.
-
-### 📦 Yours to keep — 100% free to distribute
-- Built entirely on free, open-source components (LGPL / MIT).
-- **You own the full source code.** Ship it, sell it, open-source it — no strings attached.
+- 🎨 **A gorgeous, modern UI** — clean MudBlazor design, colored app bar, light/dark mode, live theme-color picker, an auto-generated home page, and list screens with sorting, filtering, paging, and a one-click **Grid ⇄ Cards** toggle that remembers your choice per screen.
+- 🔗 **Relationships that just work** — **one-to-one**, **one-to-many**, and **many-to-many**, auto-detected from your data and rendered in grids, cards, and edit forms (multi-select for many-to-many).
+- 🧩 **Batteries included by default** — Identity & roles, OpenIddict login, permissions, settings, feature flags, multi-tenancy / SaaS, audit logging, background jobs, file/blob storage, and **CMS Kit** (tags, comments, ratings, blogs, pages, menus).
+- 📱 **One app, every screen** — a Blazor WebAssembly client, a native **.NET MAUI** desktop & mobile app (Windows / Android / iOS / macOS), and a full web admin host — all sharing the same UI.
+- 🚀 **Run it instantly** — demo data is seeded for you, so the app is alive on first launch.
+- 📦 **Yours to keep** — built entirely on free, open-source components (LGPL / MIT). Ship it, sell it, open-source it.
 
 ---
 
-## What can you build with it?
+## 📸 A peek at the output
 
-If you can put it in a spreadsheet, you can generate an app for it:
+<p align="center">
+  <img src="screenshot-home.png" alt="Auto-generated home page showcasing every module" width="80%">
+  <br><i>Auto-generated home page — one card per module in your app.</i>
+</p>
 
-- **CRMs** — customers, contacts, leads, opportunities, products, vendors, support cases.
-- **Catalogs & stores** — books, authors, categories, publishers, inventory.
-- **Back-office & admin tools** — anything with lists, forms, and relationships.
-- **SaaS products** — multi-tenant from day one.
-- **Internal line-of-business apps** — stand up a working prototype in an afternoon.
-
-From a handful of CSV files you can have a **15-entity, multi-relationship, multi-module, multi-platform
-app** running and seeded — the kind of thing that normally takes a team weeks.
-
----
-
-## Why people love it
-
-- ⏱️ **Minutes, not weeks.** Skip the scaffolding grind and start with a working app.
-- 🧱 **Real architecture.** Layered, maintainable, and built on the trusted ABP Framework.
-- ✨ **Looks great instantly.** A consistent, modern MudBlazor experience everywhere.
-- 🔓 **No lock-in, no license fees.** Free, open source, and fully yours.
+<p align="center">
+  <img src="screenshot-grid.png" alt="Data grid with one-to-one, one-to-many and many-to-many columns" width="49%">
+  <img src="screenshot-cards.png" alt="Card data view" width="49%">
+  <br><i>Grid view (with one-to-one, one-to-many & many-to-many columns) and the one-click Cards view.</i>
+</p>
 
 ---
 
-## Get started
+## 🧱 What can you build with it?
 
-👉 **Explore live demos, samples, and the latest builds at
-[ask2app.com/abpGenerator](https://ask2app.com/abpGenerator).**
+If it fits in a spreadsheet, you can generate an app for it:
 
-Built with ❤️ on ABP Framework + MudBlazor.
+**CRMs & sales pipelines** · **Product catalogs & stores** · **Back-office & admin tools** ·
+**Multi-tenant SaaS products** · **Internal line-of-business apps** · **Inventory & operations**
 
+From a handful of CSV files you can have a **15-entity, multi-relationship, multi-module, multi-platform**
+app running and seeded — the kind of thing that normally takes a team weeks.
+
+---
+
+<h3 align="center">Stop scaffolding. Start shipping.</h3>
+<p align="center">
+  Minutes, not weeks. Real architecture. A modern UI everywhere. Free and fully yours.
+  <br><br>
+  <a href="https://ask2app.com/abpGenerator"><b>Get AbpGenerator → ask2app.com/abpGenerator</b></a>
+</p>
+
+<p align="center"><sub>Built with ❤️ on ABP Framework + MudBlazor.</sub></p>
