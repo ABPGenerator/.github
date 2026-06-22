@@ -52,6 +52,10 @@ Every generated app is a complete, coherent product — not a scaffold you have 
   <br><i>Grid view (with one-to-one, one-to-many & many-to-many columns) and the one-click Cards view.</i>
 </p>
 
+<p align="center">
+  <img src="AbpGenerator%20Schema%20Designer.png"  alt="Schema Designer with one-to-one, one-to-many and many-to-many" width="49%">
+</p>
+
 ---
 
 ## 🧱 What can you build with it?
